@@ -14,10 +14,10 @@
 }
 
 .horizontal-bar {
-    color: #E95841;
-    border: 2px solid #E95841;
-    background-color: #E95841;
-    line-height: 0%;
+  color: #e95841;
+  border: 2px solid #e95841;
+  background-color: #e95841;
+  line-height: 0%;
 }
 
 .button-wrapper {
@@ -28,7 +28,7 @@ button {
   border-radius: 20px;
   padding: 10px 20px;
   margin: 0 5px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   border: 1px #ccc solid;
 }
 

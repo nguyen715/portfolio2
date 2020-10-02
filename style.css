@@ -171,6 +171,12 @@ footer > p {
   flex-direction: column;
 }
 
+.cont {
+  display: flex;
+  flex-direction: column;
+  
+}
+
 @media screen and (min-width: 1000px) {
   .process-card {
     width: 30%;
@@ -254,6 +260,12 @@ footer > p {
   }
 
   .fourth-section {
+    display: flex;
+    margin-top: 25px;
+    min-height: 50vh;
+  }
+
+  .six-section {
     display: flex;
     margin-top: 25px;
     min-height: 50vh;

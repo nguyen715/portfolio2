@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
   box-sizing: border-box;
@@ -159,7 +158,6 @@ footer > p {
   /* border: 2px solid black;
   border-radius: 10px; */
   margin-top: 30px;
-
 }
 
 .fifth-section > h1 {
@@ -174,7 +172,46 @@ footer > p {
 .cont {
   display: flex;
   flex-direction: column;
-  
+}
+
+.cont label {
+  margin-bottom: 10px;
+}
+
+.cont label,
+input {
+  display: block;
+}
+
+.cont input {
+  width: 300px;
+  height: 25px;
+}
+
+.cont textarea {
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+}
+
+.cont .form-field {
+  margin-bottom: 10px;
+}
+
+.lets-work {
+  margin-top: 10px;
+}
+
+.tell-me {
+  width: 65%;
+  align-self: flex-start;
+}
+
+.orange {
+  color: #e95841;
+  font-size: 0.9em;
+  align-self: flex-start;
+  margin-left: 10%;
 }
 
 @media screen and (min-width: 1000px) {
@@ -185,7 +222,7 @@ footer > p {
     justify-content: center;
     text-align: center;
   }
-  
+
   .fifth-section {
     display: flex;
     justify-content: center;
@@ -197,13 +234,12 @@ footer > p {
     /* border: 2px solid black;
     border-radius: 10px; */
     margin-top: 30px;
-  
   }
-  
+
   .fifth-section > h1 {
     margin: 2%;
   }
-  
+
   .process-card-wrapper {
     display: flex;
     flex-direction: row;
@@ -235,6 +271,11 @@ footer > p {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+  }
+
+  .six-section {
+    justify-content: flex-start;
+    padding-left: 10%;
   }
 
   button {

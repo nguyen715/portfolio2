@@ -202,52 +202,51 @@
       </section>
 
       <section class="six-section animate__animated animate__fadeInRight">
-        <div class="left block">
-          <h2>Let's create</h2>
+        <div class="left block lets-create">
+          <h2 class='orange'>Let's create</h2>
           <h3><span class="bold">Work</span><span>Together</span></h3>
-          <p>
+          <p class='tell-me'>
             Tell me about your needs and let's start working together on the
             best solution for users and business.
           </p>
-          <h2>My digital print</h2>
+          <h2 class='orange'>My digital print</h2>
           <h3><span class="bold">Let's</span><span>Connect</span></h3>
           <div class="icon-wrapper">
-            <a href="https://www.linkedin/in/mnguyen715">
               <span><i class="fab fa-linkedin" id="icon"></i></span>
-            </a>
-            <a href="https://www.github.com/nguyen715">
               <span><i class="fab fa-github" id="icon"></i></span>
-            </a>
           </div>
         </div>
 
-        <form id="contact" class="right block cont">
-          <label for="name">Let's meet. What's your name?</label>
-          <input id="name" />
-          <label for="email">And your email...</label>
-          <input id="email" />
-          <div class="">
-            <label for="purpose"></label>
-            <select id="purpose">
-              <option value="General questions"></option>
-              <option value="Website design"></option>
-              <option value="Website creation"></option>
-              <option value="Database creation"></option>
-              <option value="Marketing consultation"></option>
-            </select>
-            <label for="priority"></label>
-            <select id="priority">
-              <option value="We have time"></option>
-              <option value="Urgent"></option>
-            </select>
-          </div>
-          <label for="elaborate"></label>
-          <textarea
-            id="elaborate"
-            placeholder="Budget, extra details, deadlines, special requirements..."
-          ></textarea>
-          <button class="btn1" type="submit">Let's work!</button>
-        </form>
+        <section class="right block">
+            <form id="contact" class="cont">
+            <div class="form-field">
+                <label for="name">Let's meet. What's your name?</label>
+                <input id="name" />
+            </div>
+            <div class="form-field">
+                <label for="email">And your email...</label>
+                <input id="email" />
+            </div>
+            <div class="form-field">
+                <label for="purpose">How can I help you?</label>
+                <select id="purpose">
+                <option value="General questions">General questions</option>
+                <option value="Website design">Website design</option>
+                <option value="Website creation">Website creation</option>
+                <option value="Database creation">Database creation</option>
+                <option value="Marketing consultation">Marketing consultation</option>
+                </select>
+                <label for="priority">What's the priority?</label>
+                <select id="priority">
+                <option value="We have time">We have time</option>
+                <option value="Urgent">It's urgent</option>
+                </select>
+            </div>
+            <label for="elaborate">Tell me more about your project</label>
+            <textarea id="elaborate" placeholder="Budget, extra details, deadlines, special requirements..." ></textarea>
+            <button class="btn1 lets-work" type="submit">Let's work!</button>
+            </form>
+
       </section>
     </main>
 

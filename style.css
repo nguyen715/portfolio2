@@ -22,13 +22,14 @@
 }
 
 
-button {
+button, a {
   min-width: 75px;
   border-radius: 20px;
   padding: 10px 20px;
   margin: 0 5px;
   font-size: 0.8rem;
   border: 1px #ccc solid;
+  text-decoration: none;
 }
 
 .btn1 {

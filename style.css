@@ -133,7 +133,77 @@ footer > p {
   width: 100%;
 }
 
+.process-card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 10px;
+  min-height: 30vh;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.fifth-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 30px;
+
+}
+
+.fifth-section > h1 {
+  margin: 2%;
+}
+
+.process-card-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 1000px) {
+  .process-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .fifth-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+  
+  }
+  
+  .fifth-section > h1 {
+    margin: 2%;
+  }
+  
+  .process-card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   #logo {
     width: 10%;
     height: 10%;
@@ -179,6 +249,12 @@ footer > p {
   .third-section {
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 25px;
+    min-height: 50vh;
+  }
+
+  .fourth-section {
+    display: flex;
     margin-top: 25px;
     min-height: 50vh;
   }

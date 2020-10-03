@@ -16,22 +16,21 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
     <header class="animate__animated animate__fadeInDown">
-      <img src="/Minh-logo.png" id="logo" />
+      <img src="/Minh-logo.png" id="logo" alt="logo" />
       <nav>
-        <div class="container" onclick="myFunction(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+        <div class="nav-menu" onclick="myFunction(this)">
+          <div class="bar1"></div><div class="bar2"></div><div class="bar3"></div>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="first-section animate__animated animate__fadeInLeft">
+      <section class="about-me flex-wrapper reverse animate__animated animate__fadeInLeft">
         <div class="left block">
-          <img src="Minh-hexagon.png" id="hero-pic" />
+          <img src="Minh-hexagon.png" id="hero-pic" alt="Minh Nguyen" />
           <div class="icon-wrapper">
             <span><i class="fab fa-linkedin" id="icon"></i></span>
             <span><i class="fab fa-github" id="icon"></i></span>
@@ -65,142 +64,92 @@
 
       <hr />
 
-      <section class="second-section animate__animated animate__fadeInRight">
+      <section id="projects" class="projects animate__animated animate__fadeInRight">
         <h2>Projects</h2>
-        <section class="left block">
-          <img src="gameview.JPG" id="project-pic" />
-        </section>
-
-        <section class="right block">
-          <h1>Saneful</h1>
-          <h2>PostgreSQL, Epress, React, Node.js</h2>
-
-          <p class="block-text">This is an app I made</p>
-          <div class="button-wrapper">
-            <a
-              class="contact-btn btn1"
-              href="https://saneful.vercel.app/"
-              target="_blank"
-              >Live Link</a
-            >
-            <a
-              class="resume-btn btn2"
-              href="https://github.com/thinkful-ei-panda/Saneful2020-client"
-              target="_blank"
-              >Repo Link</a
-            >
+        <div class="project flex-wrapper">
+          <div class="left block">
+            <img src="saneful-screenshot.jpg" class="project-pic" alt="saneful app preview picture" />
           </div>
-        </section>
+
+          <div class="right block text">
+            <h3>Saneful</h3>
+
+            <div class="paragraph-wrapper">
+              <p class="block-text">Real-time single-player strategy RPG (role-playing game) built in React.js, Express.js, and postgreSQL. Simulates life in 2020, quarantined and working remotely from home. Styling based on 90's-era SNES Japanese RPGs.</p>
+              
+              <p>Features a primitive but robust game engine created entirely from scratch and modeled off of Unity. Made in collaboration with Chrissy Harmon, Matthew Rougely, Michael Oh, and Nick Thorpe.</p>
+            </div>
+            <div class="button-wrapper">
+              <a
+                class="contact-btn btn1"
+                href="https://saneful.vercel.app/"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                class="resume-btn btn2"
+                href="https://github.com/thinkful-ei-panda/Saneful2020-client"
+                target="_blank"
+                >Repo Link</a
+              >
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="third-section animate__animated animate__fadeInLeft">
-        <section class="left block">
-          <img src="200.gif" id="project-pic" />
-        </section>
+      <section class="creation-process animate__animated animate__fadeInLeft">
+        <h2>Creation Process</h2>
+        <div class="flex-wrapper">
+          <section class="process-card-wrapper">
+            <section class="process-card">
+              <h4>Step 1</h4>
+              <p class="block-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                maiores non accusantium incidun.
+              </p>
+            </section>
 
-        <section class="right block">
-          <h1>App Title</h1>
-          <h2>PostgreSQL, Epress, React, Node.js</h2>
-          <p class="horizontal-bar">-------------------------------------</p>
+            <section class="process-card">
+              <h4>Step 2</h4>
+              <p class="block-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                maiores non accusantium incidun.
+              </p>
+            </section>
 
-          <p class="block-text">This is an app I made</p>
-          <div class="button-wrapper">
-            <a
-              class="contact-btn btn1"
-              href="https://saneful.vercel.app/"
-              target="_blank"
-              >Live Link</a
-            >
-            <a
-              class="resume-btn btn2"
-              href="https://github.com/thinkful-ei-panda/Saneful2020-client"
-              target="_blank"
-              >Repo Link</a
-            >
-          </div>
-        </section>
-      </section>
+            <section class="process-card">
+              <h4>Step 3</h4>
+              <p class="block-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                maiores non accusantium incidun.
+              </p>
+            </section>
 
-      <section class="fourth-section animate__animated animate__fadeInRight">
-        <section class="left block">
-          <img src="200.gif" id="project-pic" />
-        </section>
+            <section class="process-card">
+              <h4>Step 4</h4>
+              <p class="block-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                maiores non accusantium incidun.
+              </p>
+            </section>
 
-        <section class="right block">
-          <h1>App Title</h1>
-          <h2>PostgreSQL, Epress, React, Node.js</h2>
-          <p class="horizontal-bar">-------------------------------------</p>
+            <section class="process-card">
+              <h4>Step 5</h4>
+              <p class="block-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                maiores non accusantium incidun.
+              </p>
+            </section>
 
-          <p class="block-text">This is an app I made</p>
-          <div class="button-wrapper">
-            <a
-              class="contact-btn btn1"
-              href="https://saneful.vercel.app/"
-              target="_blank"
-              >Live Link</a
-            >
-            <a
-              class="resume-btn btn2"
-              href="https://github.com/thinkful-ei-panda/Saneful2020-client"
-              target="_blank"
-              >Repo Link</a
-            >
-          </div>
-        </section>
-      </section>
-
-      <section class="fifth-section animate__animated animate__fadeInLeft">
-        <h1>Creation Process</h1>
-
-        <section class="process-card-wrapper">
-          <section class="process-card">
-            <h4>Step 1</h4>
-            <p class="block-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              maiores non accusantium incidun.
-            </p>
+            <section class="process-card">
+              <h4>Step 6</h4>
+              <p class="block-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                maiores non accusantium incidun.
+              </p>
+            </section>
           </section>
-
-          <section class="process-card">
-            <h4>Step 2</h4>
-            <p class="block-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              maiores non accusantium incidun.
-            </p>
-          </section>
-
-          <section class="process-card">
-            <h4>Step 3</h4>
-            <p class="block-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              maiores non accusantium incidun.
-            </p>
-          </section>
-
-          <section class="process-card">
-            <h4>Step 4</h4>
-            <p class="block-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              maiores non accusantium incidun.
-            </p>
-          </section>
-
-          <section class="process-card">
-            <h4>Step 5</h4>
-            <p class="block-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              maiores non accusantium incidun.
-            </p>
-          </section>
-
-          <section class="process-card">
-            <h4>Step 6</h4>
-            <p class="block-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              maiores non accusantium incidun.
-            </p>
-          </section>
-        </section>
+        </div>
       </section>
 
       <section class="six-section animate__animated animate__fadeInRight">

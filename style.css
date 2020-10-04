@@ -44,6 +44,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
+  font-size: 1.5em;
 }
 
 #slide-menu > h2 {
@@ -53,8 +54,16 @@ body {
 
 #slide-menu > a:hover {
   color: white;
-  font-size: larger;
+  font-size: 1.8em;
   text-shadow: 2px 2px 5px #aaaaaa;
+
+}
+
+#slide-menu > .closebtn {
+  font-size: 4em;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
 
 }
 

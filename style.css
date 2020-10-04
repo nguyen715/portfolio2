@@ -28,14 +28,15 @@ body {
   transition: 0.5s;
   margin: 0;
   padding-top: 60px;
-  clip-path: circle(10% at 10% 10%);
+  clip-path: circle(10% at 100% 0%);
   transition: clip-path .5s ease-in-out;
 }
 
 .sidebar a {
   text-decoration: none;
   font-size: 2em;
-  color: #eeeeee;;
+  color: #eeeeee;
+  ;
   transition: 0.3s;
   text-align: center;
   color: white;
@@ -119,7 +120,8 @@ hr {
   border-bottom: 1px solid #ffffff;
 }
 
-button, a {
+button,
+a {
   min-width: 75px;
   border-radius: 20px;
   padding: 10px 20px;

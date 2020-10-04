@@ -17,7 +17,7 @@ body {
 }
 
 #slide-menu {
-  /* display: none; */
+  display: none;
   position: absolute;
   background: linear-gradient(#e95841, #e94b63);
   min-width: 100%;
@@ -77,15 +77,16 @@ body {
 
 .flex-wrapper {
   display: flex;
+  flex-direction: column;
 }
 
 .bold {
   font-weight: 800;
 }
 
-.reverse {
+/* .reverse {
   flex-direction: row-reverse;
-}
+} */
 
 h1 {
   font-size: 2.5rem;
@@ -237,7 +238,7 @@ p {
 
 #hero-pic {
   width: 70%;
-  margin-left: -20px;
+  /* margin-left: -20px; */
 }
 
 #icon {
@@ -266,6 +267,9 @@ footer {
   min-height: 15vh;
   text-align: center;
   margin-top: 20px;
+  width: 100%;
+  padding:0;
+  display: block;
 }
 
 footer > p {
@@ -355,6 +359,11 @@ input {
 }
 
 @media screen and (min-width: 1000px) {
+  .flex-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .process-card {
     width: 30%;
     display: flex;
@@ -389,16 +398,6 @@ input {
   #logo {
     width: 10%;
     height: 10%;
-  }
-
-  .about-me {
-    /* display: flex;
-    justify-content: center;
-    flex-direction: row-reverse; */
-  }
-
-  .about-me .right {
-    /* margin-left: 150px; */
   }
 
   .block {

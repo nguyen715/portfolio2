@@ -346,16 +346,26 @@ input {
   margin-top: 10px;
 }
 
-.tell-me {
+/* .tell-me, .lets-create, .icon-wrapper {
   width: 65%;
-  align-self: flex-start;
+  align-self: center;
+  text-align: left;
+  
+} */
+
+.lets-create {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
 }
 
 .orange {
   color: #e95841;
   font-size: 0.9em;
   align-self: flex-start;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 
 @media screen and (min-width: 1000px) {

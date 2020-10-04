@@ -17,23 +17,21 @@ body {
 }
 
 #slide-menu {
-  display: none;
+  /* display: none; */
   position: absolute;
   background: linear-gradient(#e95841, #e94b63);
   min-width: 100%;
-  min-height: 90%;
+  /* min-height: 90%; */
   right: 0%;
   top: 0;
   color: #fdfdfd;
-  z-index: 1;
   opacity: 0.95;
-  position: fixed;
+  /* position: fixed; */
   transition: 5s;
 }
 
 #slide-menu > a {
   color: white;
-  z-index: 3;
   text-align: center;
   margin: 20px;
   display: flex;
@@ -56,7 +54,6 @@ body {
   color: white;
   font-size: 1.8em;
   text-shadow: 2px 2px 5px #333;
-
 }
 
 #slide-menu > .closebtn {
@@ -64,7 +61,6 @@ body {
   position: absolute;
   right: 20px;
   cursor: pointer;
-
 }
 
 #slide-menu > .closebtn:hover {
@@ -72,7 +68,6 @@ body {
   position: absolute;
   right: 20px;
   cursor: pointer;
-
 }
 
 .nav-menu {

@@ -33,7 +33,7 @@ body {
 
 #slide-menu > a {
   color: white;
-  z-index: 3;
+  z-index: 5;
   text-align: center;
   margin: 20px;
   display: flex;

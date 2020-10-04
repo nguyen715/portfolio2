@@ -1,5 +1,5 @@
-function myFunction(x) {
-  x.classList.toggle("change");
+function myFunction(y) {
+  y.classList.toggle("change");
 }
 
 function slideOut(x) {
@@ -7,10 +7,13 @@ function slideOut(x) {
 }
 
 function toggleDiv() {
+  // y.classList.toggle("change");
   var x = document.getElementById("slide-menu");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
+
+  
 }

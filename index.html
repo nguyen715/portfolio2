@@ -21,13 +21,13 @@
     <header class="animate__animated animate__fadeInDown">
       <img src="/Minh-logo.png" id="logo" alt="logo" />
       <nav>
-        <div class="nav-menu" onclick="toggleDiv(this)">
+        <div class="nav-menu" onclick="toggleDiv()">
           <div class="bar1"></div><div class="bar2"></div><div class="bar3"></div>
           <div id='slide-menu'>
           <h2>Menu</h2>
-          <h4> Projects </h4>
-          <h4> Creation Process </h4>
-          <h4> Let's Work </h4>
+          <a href="#projects"> Projects </a>
+          <a href="#create"> Creation Process </a>
+          <a href="#cont"> Let's Work </a>
           </div>
         </div>
       </nav>
@@ -103,7 +103,7 @@
         </div>
       </section>
 
-      <section class="creation-process animate__animated animate__fadeInLeft">
+      <section class="creation-process animate__animated animate__fadeInLeft" id="create">
         <h2>Creation Process</h2>
         <div class="flex-wrapper">
           <section class="process-card-wrapper">
@@ -174,7 +174,7 @@
           </div>
         </div>
 
-        <section class="right block">
+        <section class="right block" id="cont">
             <form id="contact" class="cont">
             <div class="form-field">
                 <label for="name">Let's meet. What's your name?</label>

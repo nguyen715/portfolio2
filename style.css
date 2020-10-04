@@ -55,7 +55,7 @@ body {
 #slide-menu > a:hover {
   color: white;
   font-size: 1.8em;
-  text-shadow: 2px 2px 5px #aaaaaa;
+  text-shadow: 2px 2px 5px #333;
 
 }
 
@@ -65,6 +65,19 @@ body {
   right: 20px;
   cursor: pointer;
 
+}
+
+#slide-menu > .closebtn:hover {
+  font-size: 4em;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+
+}
+
+.nav-menu {
+  display: inline-block;
+  cursor: pointer;
 }
 
 .flex-wrapper {
@@ -154,11 +167,6 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-}
-
-.nav-menu {
-  display: inline-block;
-  cursor: pointer;
 }
 
 .bar1,

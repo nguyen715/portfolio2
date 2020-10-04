@@ -75,18 +75,10 @@ body {
   cursor: pointer;
 }
 
-.flex-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
 .bold {
   font-weight: 800;
 }
 
-/* .reverse {
-  flex-direction: row-reverse;
-} */
 
 h1 {
   font-size: 2.5rem;
@@ -356,6 +348,7 @@ footer > p {
 }
 
 @media screen and (min-width: 1000px) {
+
   .flex-wrapper {
     display: flex;
     flex-direction: row-reverse;
@@ -367,6 +360,13 @@ footer > p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+   
+  }
+
+  .process-card:hover {
+    -webkit-box-shadow: 3px -4px 88px -38px #e94b63;
+    -moz-box-shadow: 3px -4px 88px -38px #e94b63;
+    box-shadow: 3px -4px 88px -38px #e94b63;
   }
 
   .creation-process {
@@ -377,8 +377,6 @@ footer > p {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    /* border: 2px solid black;
-    border-radius: 10px; */
     margin-top: 30px;
   }
 
@@ -399,16 +397,7 @@ footer > p {
 
   .block {
     width: 49%;
-    /* display: flex;
-    justify-content: start;
-    flex-direction: column;
-    align-items: center; */
-    padding: 50px;
-  }
-
-  .text h1,
-  h2 {
-    /* align-self: flex-start; */
+    padding: 20px;
   }
 
   .six-section {

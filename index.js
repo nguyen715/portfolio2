@@ -17,6 +17,28 @@ function toggleDiv() {
     x.style.display = "none";
     y.style.display = "inline-block";
   }
-
-  
 }
+
+function openNav() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("box").style.marginLeft = "100%";
+}
+  
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("box").style.marginLeft= "0";
+}
+
+// $('#slide-menu').on("click", "#nav-ham", function(event) {
+//   event.preventDefault();
+//   console.log('clicked')
+
+// }
+
+// })
+
+// $("#slide-menu").slideReveal({
+//   trigger: $("#nav-ham"),
+//   push: false,
+//   overlay: true
+// });

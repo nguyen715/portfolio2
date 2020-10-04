@@ -17,24 +17,28 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     /> -->
+    
   </head>
 
   <body>
     <header class="animate__animated animate__fadeInDown">
       <img src="/Minh-logo.png" id="logo" alt="logo" />
       <nav>
-        <div class="nav-menu" onclick="toggleDiv(this)" id="nav-ham">
-          <div class="bar1"></div><div class="bar2"></div><div class="bar3"></div>
-          
-        </div>
-        <div id='slide-menu'>
-          <a href="javascript:void(0)" class="closebtn" onclick="toggleDiv()" > &times; </a>
+
+        <section id='mySidebar' class="sidebar">
           <h2>Menu</h2>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" > &times; </a>
           <a href="#projects"> Projects </a>
           <a href="#create"> Creation Process </a>
           <a href="#cont"> Let's Work </a>
+          </section>
+
+          <div onclick="openNav()" id="box">
+            <div class="bar1"></div><div class="bar2"></div><div class="bar3"></div>
           </div>
+
       </nav>
+
     </header>
 
     <main>
@@ -220,5 +224,9 @@
     </footer>
 
     <script src="index.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
   </body>
 </html>

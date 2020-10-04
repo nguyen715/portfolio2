@@ -347,6 +347,22 @@ footer > p {
   margin-top: 25px;
 }
 
+.orange-number {
+  color: #e95841;
+  font-size: 1.6em;
+  align-self: flex-start;
+  margin: 5%;
+  font-weight: 600;
+}
+
+.process-card > h4 {
+  color: #000000;
+  font-size: 1.6em;
+  align-self: flex-start;
+  margin: 5%;
+  font-weight: 600;
+}
+
 @media screen and (min-width: 1000px) {
 
   .flex-wrapper {

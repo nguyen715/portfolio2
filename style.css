@@ -71,19 +71,6 @@ body {
   padding: 16px;
 }
 
-
-#slide-menu>h2 {
-  margin-top: 20px;
-  padding: 20px;
-}
-
-#slide-menu>a:hover {
-  color: white;
-  font-size: 1.8em;
-  text-shadow: 2px 2px 5px #333;
-}
-
-
 .nav-menu {
   display: inline-block;
   cursor: pointer;

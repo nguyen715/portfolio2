@@ -26,7 +26,7 @@ body {
   top: 0;
   color: #fdfdfd;
   z-index: 1;
-  opacity: 0.9;
+  opacity: 0.95;
   position: fixed;
   transition: 5s;
 }
@@ -40,7 +40,15 @@ body {
   flex-direction: column;
   border: none;
   box-shadow: none;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
 
+#slide-menu > h2 {
+  margin-top: 20px;
+  padding: 20px;
 }
 
 #slide-menu > a:hover {

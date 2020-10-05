@@ -16,6 +16,16 @@ body {
   padding: 10px;
 }
 
+button, a {
+  min-width: 75px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 0.8rem;
+  border: 1px #ccc solid;
+  text-decoration: none;
+}
+
 /*SLIDE OUT MENU*/
 .sidebar {
   height: 100%;
@@ -28,12 +38,12 @@ body {
   transition: 0.5s;
   margin: 0;
   padding-top: 60px;
-  clip-path: circle(10% at 100% 0%);
+  clip-path: circle(0% at 100% 0%);
   transition: clip-path .5s ease-in-out;
   opacity: .92;
 }
 
-.sidebar a {
+.sidebar > a {
   text-decoration: none;
   font-size: 2em;
   color: #eeeeee;
@@ -119,17 +129,6 @@ hr {
   border: none;
   border-top: 1px solid #aaaaaa;
   border-bottom: 1px solid #ffffff;
-}
-
-button,
-a {
-  min-width: 75px;
-  border-radius: 20px;
-  padding: 10px 20px;
-  margin: 0 5px;
-  font-size: 0.8rem;
-  border: 1px #ccc solid;
-  text-decoration: none;
 }
 
 button:hover,

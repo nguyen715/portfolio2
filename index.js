@@ -2,7 +2,7 @@ function openNav() {
   document.getElementById("mySidebar").style.clipPath =
     "circle(80% at 40% 50%)";
   document.getElementById("mySidebar").style.width = "100%";
-  document.getElementById("box").style.marginLeft = "100%";
+  document.getElementById("box").style.marginLeft = "100px";
 }
 
 function closeNav() {

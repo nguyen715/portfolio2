@@ -11,9 +11,9 @@
   font-weight: 400;
 }
 
-body {
+main {
   background-color: #fdfdfd;
-  padding: 10px;
+  padding: 0 50px 50px 50px;
 }
 
 button, a {
@@ -69,15 +69,15 @@ button, a {
 
 .sidebar .closebtn {
   position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 36px;
+  top: 14px;
+  right: 46px;
+  font-size: 100px;
 }
 
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background: linear-gradient(#e95841, #e94b63);
+  /* background: linear-gradient(#e95841, #e94b63); */
   color: white;
   padding: 10px 15px;
   border: none;
@@ -107,7 +107,7 @@ h3 {
   text-align: center;
 }
 
-section {
+section:not(.about-me) {
   margin: 50px 0 0 0;
 }
 
@@ -147,8 +147,8 @@ button:hover, a:hover {
 header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
-  padding: 5%;
+  padding: calc(5% + 10px);
+  padding-bottom: 40px;
 }
 
 .bar1,
@@ -230,6 +230,12 @@ p {
   margin: 0 5px;
 }
 
+/* project section  */
+
+.project {
+  margin-bottom: 50px;
+}
+
 .project h3 {
   font-size: 1.3rem;
   margin-bottom: 30px;
@@ -237,6 +243,14 @@ p {
 
 .project-pic {
   width: 100%;
+}
+
+.paragraph-wrapper {
+  margin-bottom: 50px;
+}
+
+.button-wrapper {
+  margin-left: 50px;
 }
 
 footer {
@@ -290,33 +304,40 @@ footer>p {
   padding: 1%;
 }
 
-.cont {
+/* contact form */
+
+.contact {
   display: flex;
   flex-direction: column;
 }
 
-.cont label {
-  margin-bottom: 10px;
+.contact label {
+  margin-bottom: 5px;
 }
 
-.cont label,
+.contact label,
 input {
   display: block;
 }
 
-.cont input {
+.contact input {
   width: 300px;
   height: 25px;
 }
 
-.cont textarea {
+.contact textarea {
   width: 300px;
   height: 100px;
   padding: 5px;
 }
 
-.cont .form-field {
-  margin-bottom: 10px;
+.contact .form-field {
+  margin-bottom: 15px;
+}
+
+.contact .submit-btn {
+  width: 280px;
+  margin-top: 30px;
 }
 
 .lets-work {
@@ -362,6 +383,9 @@ input {
 
   .flex-wrapper {
     display: flex;
+  }
+
+  .reverse {
     flex-direction: row-reverse;
   }
 
@@ -429,7 +453,13 @@ input {
     min-height: 50vh;
   }
 
-  .third-section {
+  .connect {
+    display: flex;
+    margin-top: 25px;
+    min-height: 50vh;
+  }
+
+  /* .third-section {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 25px;
@@ -441,10 +471,5 @@ input {
     margin-top: 25px;
     min-height: 50vh;
   }
-
-  .six-section {
-    display: flex;
-    margin-top: 25px;
-    min-height: 50vh;
-  }
+ */
 }

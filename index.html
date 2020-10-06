@@ -30,7 +30,7 @@
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" > &times; </a>
           <a href="#projects" onclick="closeNav()"> Projects </a>
           <a href="#create" onclick="closeNav()"> Creation Process </a>
-          <a href="#cont" onclick="closeNav()"> Let's Work </a>
+          <a href="#connect" onclick="closeNav()"> Let's Work </a>
           </section>
 
           <div onclick="openNav()" id="box" class="openbtn">
@@ -40,7 +40,7 @@
     </header>
 
     <main>
-      <section class="about-me flex-wrapper animate__animated animate__fadeInLeft">
+      <section class="about-me flex-wrapper animate__animated animate__fadeInLeft reverse">
         <div class="left block">
           <img src="Minh-hexagon.png" id="hero-pic" alt="Minh Nguyen" />
           <div class="icon-wrapper">
@@ -76,7 +76,7 @@
 
       <hr />
 
-      <section id="projects" class="reverse projects animate__animated animate__fadeInRight">
+      <section id="projects" class="projects animate__animated animate__fadeInRight">
         <h2>Projects</h2>
         <div class="project flex-wrapper">
           <div class="left block">
@@ -84,7 +84,7 @@
           </div>
 
           <div class="right block text">
-            <h3>Saneful</h3>
+            <h3>Saneful 2020 App</h3>
 
             <div class="paragraph-wrapper">
               <p class="block-text">Real-time single-player strategy RPG (role-playing game) built in React.js, Express.js, and postgreSQL. Simulates life in 2020, quarantined and working remotely from home. Styling based on 90's-era SNES Japanese RPGs.</p>
@@ -107,9 +107,102 @@
             </div>
           </div>
         </div>
+
+        
+        <div class="project flex-wrapper reverse">
+          <div class="left block">
+            <img src="jobtrackerapp.png" class="project-pic" alt="jobtracker app preview picture" />
+          </div>
+
+          <div class="right block text">
+            <h3>Jobtracker App</h3>
+
+            <div class="paragraph-wrapper">
+              <p class="block-text">First full-stack project designed to allow new developers to keep track of listings on their job search.</p>
+              
+              <p>Built using React.js, Express.js, postgreSQL, and stores user login information in local storage, in addition to hashing a special URL to safely share lists with others</p>
+            </div>
+            <div class="button-wrapper">
+              <a
+                class="contact-btn btn1"
+                href="https://jobtracker-rouge.vercel.app/"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                class="resume-btn btn2"
+                href="https://github.com/nguyen715/jobtracker-client2"
+                target="_blank"
+                >Repo Link</a
+              >
+            </div>
+          </div>
+        </div>
+
+
+        <div class="project flex-wrapper">
+          <div class="left block">
+            <img src="bookmarksapp.png" class="project-pic" alt="bookmarks app preview picture" />
+          </div>
+
+          <div class="right block text">
+            <h3>Bookmarks App</h3>
+
+            <div class="paragraph-wrapper">
+              <p class="block-text">Front-end single page web app created with HTML, CSS, jQuery, and a mock backend API, designed to allow users to store their favorite websites as bookmarks.</p>
+              
+              <p>Built before learning React, but antipating core React patterns e.g. componentization, state management, view/page routing, etc.</p>
+            </div>
+            <div class="button-wrapper">
+              <a
+                class="contact-btn btn1"
+                href="https://thinkful-ei-panda.github.io/minh-bookmarks-app/"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                class="resume-btn btn2"
+                href="https://github.com/nguyen715/minh-bookmarks-app"
+                target="_blank"
+                >Repo Link</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project flex-wrapper reverse">
+          <div class="left block">
+            <img src="quizapp.png" class="project-pic" alt="quiz app preview picture" />
+          </div>
+
+          <div class="right block text">
+            <h3>Quiz App</h3>
+
+            <div class="paragraph-wrapper">
+              <p class="block-text">Front-end single page web app created with HTML, CSS, jQuery, in collaboration with Nick Thorpe, to test users' knowledge of Marvel Universe trivia.</p>
+              
+              <p>Uses ample amounts of jQuery to handle button clicks, site navigation, etc. Also uses primitive state pattern to keep track of user guesses, to update score and provide feedback.</p>
+            </div>
+            <div class="button-wrapper">
+              <a
+                class="contact-btn btn1"
+                href="https://thinkful-ei-panda.github.io/minh-bookmarks-app/"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                class="resume-btn btn2"
+                href="https://github.com/nguyen715/minh-bookmarks-app"
+                target="_blank"
+                >Repo Link</a
+              >
+            </div>
+          </div>
+        </div>
+        
       </section>
 
-      <section class="creation-process animate__animated animate__fadeInLeft" id="create">
+      <!-- <section class="creation-process animate__animated animate__fadeInLeft" id="create">
         <h2>Creation Process</h2>
         <div class="flex-wrapper">
           <section class="process-card-wrapper">
@@ -163,16 +256,17 @@
             </section>
           </section>
         </div>
-      </section>
+      </section> -->
 
-      <section class="six-section animate__animated animate__fadeInRight">
+      <hr />
+
+      <section class="connect animate__animated animate__fadeInRight" id="connect">
 
         <div class="left block lets-create">
           <h2 class='orange'>Let's create</h2>
           <h3><span class="bold">Work</span><span>Together</span></h3>
           <p class='tell-me'>
-            Tell me about your needs and let's start working together on the
-            best solution for users and business.
+            Tell me about what interesting projects that you're working on, and see if we can collaborate together!
           </p>
 
           <h2 class='orange'>My digital print</h2>
@@ -184,17 +278,17 @@
           </div>
         </div>
 
-        <section class="right block" id="cont">
-            <form id="contact" class="cont">
+        <section class="right block" id="contact">
+            <form class="contact">
             <div class="form-field">
-                <label for="name">Let's meet. What's your name?</label>
+                <label for="name">Name</label>
                 <input id="name" />
             </div>
             <div class="form-field">
-                <label for="email">And your email...</label>
+                <label for="email">Email</label>
                 <input id="email" />
             </div>
-            <div class="form-field">
+            <!-- <div class="form-field">
                 <label for="purpose">How can I help you?</label>
                 <select id="purpose">
                 <option value="General questions">General questions</option>
@@ -208,10 +302,10 @@
                 <option value="We have time">We have time</option>
                 <option value="Urgent">It's urgent</option>
                 </select>
-            </div>
-            <label for="elaborate">Tell me more about your project</label>
-            <textarea id="elaborate" placeholder="Budget, extra details, deadlines, special requirements..." ></textarea>
-            <button class="btn1 lets-work" type="submit">Let's work!</button>
+            </div> -->
+            <label for="message">Message</label>
+            <textarea id="message" ></textarea>
+            <button class="btn1 submit-btn" type="submit">Submit</button>
             </form>
 
       </section>

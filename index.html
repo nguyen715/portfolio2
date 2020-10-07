@@ -287,11 +287,11 @@
             <form class="contact" action="https://formspree.io/nguyen.715@osu.edu" method="POST">
             <div class="form-field">
                 <label for="name">Name</label>
-                <input id="name" />
+                <input name="name" id="name" required />
             </div>
             <div class="form-field">
                 <label for="email">Email</label>
-                <input id="email" />
+                <input name"email" id="email"  required />
             </div>
             <!-- <div class="form-field">
                 <label for="purpose">How can I help you?</label>
@@ -309,7 +309,7 @@
                 </select>
             </div> -->
             <label for="message">Message</label>
-            <textarea id="message" ></textarea>
+            <textarea id="message" name="message" required ></textarea>
             <button class="btn1 submit-btn" type="submit">Get in touch</button>
             </form>
 

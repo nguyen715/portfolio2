@@ -25,17 +25,17 @@
       <img src="/Minh-logo.png" id="logo" alt="logo" />
 
       <nav>
-        <section id='mySidebar' class="sidebar">
+        <div id='mySidebar' class="sidebar">
           <h2>Menu</h2>
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" > &times; </a>
           <a href="#projects" onclick="closeNav()"> Projects </a>
           <a href="#create" onclick="closeNav()"> Creation Process </a>
           <a href="#connect" onclick="closeNav()"> Let's Work </a>
-          </section>
+        </div>
 
-          <div onclick="openNav()" id="box" class="openbtn">
-            <div class="bar1"></div><div class="bar2"></div><div class="bar3"></div>
-          </div>
+        <div onclick="openNav()" id="box" class="openbtn">
+          <div class="bar1"></div><div class="bar2"></div><div class="bar3"></div>
+        </div>
       </nav>
     </header>
 
@@ -44,9 +44,9 @@
         <div class="left block">
           <img src="Minh-hexagon.png" id="hero-pic" alt="Minh Nguyen" />
           <div class="icon-wrapper">
-            <span><i class="fab fa-linkedin" id="icon"></i></span>
-            <span><i class="fab fa-github" id="icon"></i></span>
-            <span><i class="fas fa-envelope-square" id="icon"></i></span>
+            <span><a class="icon-link" href="https://www.linkedin.com/in/mnguyen715"><i class="fab fa-linkedin" id="icon"></i></a></span>
+            <span><a class="icon-link" href="https://github.com/nguyen715"><i class="fab fa-github" id="icon"></i></a></span>
+            <span><a class="icon-link" href="mailto:nguyen.715@osu.edu"><i class="fas fa-envelope-square" id="icon"></i></a></span>
           </div>
         </div>
 
@@ -59,15 +59,19 @@
           <p class="block-text">
             I take a holistic approach to the projects I work on, writing code
             that is organized, readable, and maintainable, while also keeping an
-            eye on business needs and user experience. With my background in
+            eye on business needs and user experience. </p>
+            
+            <p>With my background in
             mathematics and internet marketing, I apply analytical thinking to
             create robust applications that are easy to use.
           </p>
           <div class="button-wrapper">
-            <button class="contact-btn btn1" href="#contact">
-              Work together
+            <!-- <a href="#contact"><button class="contact-btn btn1">
+              Get in touch
             </button>
-            <button class="resume-btn btn2" href="/resume.pdf" download>
+            </a> -->
+            <a href="#contact" class="contact-btn btn1">Get in touch</a>
+            <button class="resume-btn btn2" href="/resume.pdf" download target="_blank">
               Resume
             </button>
           </div>
@@ -120,7 +124,7 @@
             <div class="paragraph-wrapper">
               <p class="block-text">First full-stack project designed to allow new developers to keep track of listings on their job search.</p>
               
-              <p>Built using React.js, Express.js, postgreSQL, and stores user login information in local storage, in addition to hashing a special URL to safely share lists with others</p>
+              <p>Built using React.js, Express.js, postgreSQL, and stores user login information in local storage, in addition to hashing a special URL to safely share lists with others.</p>
             </div>
             <div class="button-wrapper">
               <a
@@ -273,13 +277,13 @@
           <h3><span class="bold">Let's</span><span>Connect</span></h3>
 
           <div class="icon-wrapper">
-              <span><i class="fab fa-linkedin" id="icon"></i></span>
-              <span><i class="fab fa-github" id="icon"></i></span>
+              <span><a class="icon-link" href="https://www.linkedin.com/in/mnguyen715"><i class="fab fa-linkedin" id="icon"></i></a></span>
+              <span><a class="icon-link" href="https://github.com/nguyen715"><i class="fab fa-github" id="icon"></i></a><span>
           </div>
         </div>
 
         <section class="right block" id="contact">
-            <form class="contact">
+            <form class="contact" action="https://formspree.io/f/mnqojvkg" method="POST">
             <div class="form-field">
                 <label for="name">Name</label>
                 <input id="name" />
